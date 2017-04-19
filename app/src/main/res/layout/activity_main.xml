@@ -8,15 +8,14 @@
     tools:context="com.example.asus_pc.testing.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/LawakKampus"
         android:layout_width="137dp"
         android:layout_height="166dp"
         android:contentDescription="@string/gambarlawakkampus"
         android:contextClickable="false"
-        android:constraintSet="@mipmap/lawakkampus"
         app:srcCompat="@mipmap/lawakkampus"
-        tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="172dp"
         tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>

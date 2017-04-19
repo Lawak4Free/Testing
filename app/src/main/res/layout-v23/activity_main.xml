@@ -8,15 +8,45 @@
     tools:context="com.example.asus_pc.testing.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/LawakKampus"
         android:layout_width="137dp"
         android:layout_height="166dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="0dp"
         android:contentDescription="@string/gambarlawakkampus"
         android:contextClickable="false"
-        android:constraintSet="@mipmap/lawakkampus"
+        app:layout_constraintBottom_toTopOf="@+id/LawakKampus"
+        app:layout_constraintLeft_toRightOf="@+id/LawakKampus"
         app:srcCompat="@mipmap/lawakkampus"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="38dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/CollectionComic"
+        android:layout_width="215dp"
+        android:layout_height="43dp"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/collection_of_comics"
+        app:layout_constraintBottom_toTopOf="@+id/CollectionComic"
+        app:layout_constraintLeft_toRightOf="@+id/CollectionComic"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/lawakkampus"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="200dp"
+        android:contextClickable="true"
+        android:text="@string/lawak_kampus"
+        app:layout_constraintRight_toLeftOf="@+id/lawakkampus"
+        app:layout_constraintTop_toBottomOf="@+id/lawakkampus"
+        tools:ignore="RtlHardcoded" />
 
 </android.support.constraint.ConstraintLayout>
