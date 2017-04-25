@@ -20,22 +20,18 @@
         app:srcCompat="@mipmap/lawakkampus"
         tools:ignore="RtlHardcoded" />
 
-    <EditText
-        android:id="@+id/CollectionComic"
-        android:layout_width="215dp"
-        android:layout_height="43dp"
-        android:layout_margin="0dp"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/collection_of_comics"
-        app:layout_constraintBottom_toTopOf="@+id/CollectionComic"
-        app:layout_constraintLeft_toRightOf="@+id/CollectionComic"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="3dp" />
+    <ImageView
+        android:id="@+id/Ujang"
+        android:layout_width="150dp"
+        android:layout_height="159dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/gambarujang"
+        app:layout_constraintLeft_toRightOf="@id/Ujang"
+        app:layout_constraintTop_toBottomOf="@id/Ujang"
+        app:srcCompat="@mipmap/ujang"
+        tools:ignore="RtlHardcoded" />
+
 
     <Button
         android:id="@+id/lawakkampus"
@@ -48,5 +44,35 @@
         app:layout_constraintRight_toLeftOf="@+id/lawakkampus"
         app:layout_constraintTop_toBottomOf="@+id/lawakkampus"
         tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/ujang"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:contextClickable="true"
+        android:text="@string/ujangg"
+        app:layout_constraintLeft_toRightOf="@id/ujang"
+        app:layout_constraintTop_toBottomOf="@id/ujang"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="38dp"
+        android:layout_marginRight="-420dp"
+        android:layout_marginTop="-25dp"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="24sp"
+        app:layout_constraintRight_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="RtlHardcoded" />
+
+
+
+
 
 </android.support.constraint.ConstraintLayout>
