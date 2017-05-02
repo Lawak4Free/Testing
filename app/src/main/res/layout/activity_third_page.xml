@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asus_pc.testing.SecondPage">
+    tools:context="com.example.asus_pc.testing.ThirdPage">
 
-    <ListView
-        android:id="@+id/listViewSecondPage"
-        android:layout_width="368dp"
-        android:layout_height="495dp"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="168dp"
+        android:layout_height="87dp"
+        android:layout_margin="50dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
-        android:clickable="true"
-        app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
+        android:text="@string/textvieww"
+        app:layout_constraintRight_toLeftOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="RtlHardcoded" />
 </android.support.constraint.ConstraintLayout>

@@ -15,7 +15,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void SecondPage(View view) {
 
-        Intent intent = new Intent(this, SecondPage.class);
+        Intent intent = new Intent(this, SecondPage.class );
+        //SecondPage sama dengan nama activity baru(activity_second_page.xml
+        startActivity(intent);
+
+    }
+
+    public void ThirdPage(View view) {
+
+        Intent intent = new Intent(this, ThirdPage.class );
         //SecondPage sama dengan nama activity baru(activity_second_page.xml
         startActivity(intent);
 
