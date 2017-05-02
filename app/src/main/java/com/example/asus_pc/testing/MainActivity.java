@@ -29,4 +29,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void ForthPage(View view) {
+
+        Intent intent = new Intent(this, ForthPage.class );
+        //SecondPage sama dengan nama activity baru(activity_second_page.xml
+        startActivity(intent);
+
+    }
+
 }

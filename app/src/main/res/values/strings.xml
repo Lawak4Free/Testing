@@ -13,4 +13,7 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="textvieww">TextView3</string>
+    <string name="button3">jilid3</string>
+    <string name="button2">jilid 2</string>
+    <string name="button1">jilid 1</string>
 </resources>
