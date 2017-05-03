@@ -18,7 +18,10 @@
         <activity android:name=".SecondPage" />
         <activity android:name=".ThirdPage" />
         <activity android:name=".ForthPage" />
-        <activity android:name=".PDFViewer"></activity>
+        <activity android:name=".PDFViewer" />
+        <activity android:name=".PDFViewer2" />
+        <activity android:name=".PDFViewer3" />
+        <activity android:name=".PDFViewer4"></activity>
     </application>
 
 </manifest>

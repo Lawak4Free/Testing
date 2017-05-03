@@ -7,14 +7,186 @@
     tools:context="com.example.asus_pc.testing.ThirdPage">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="168dp"
-        android:layout_height="87dp"
-        android:layout_margin="50dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
-        android:text="@string/textvieww"
-        app:layout_constraintRight_toLeftOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:id="@+id/textView3"
+        android:layout_width="346dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="15dp"
+        android:text="Ujang"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintRight_toLeftOf="@+id/textView3"
         tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="335dp"
+        android:layout_height="176dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="45dp"
+        android:text="Majalah Ujang lahir setelah pelukis Ibrahim Anon yang lebih dikenali dengan nama penanya Ujang menerbitkan sendiri pada tahun 1993 di bawah syarikat Karisma Publications, Kuala Lumpur. Majalah Ujang pada awal penerbitannya yang pertama kelihatan sebuah himpunan buku lakaran pelukisnya, dengan lakaran konsep majalah itu untuk isu seterusnya.Melalui majalah ini, beberapa orang pelukis kartun telah berjaya dikadetkan oleh Ujang"
+        android:textColor="@android:color/black"
+        app:layout_constraintRight_toLeftOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:text="@string/chapter_1"
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="PDFViewer3"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintRight_toLeftOf="@+id/textView5"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="310dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:text="@string/chapter_2"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintRight_toLeftOf="@+id/textView6"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:text="@string/chapter_3"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintRight_toLeftOf="@+id/textView7"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="430dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:text="@string/chapter_4"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintRight_toLeftOf="@+id/textView8"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="165dp"
+        android:clickable="true"
+        android:text="@string/chapter_5"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="165dp"
+        android:layout_marginTop="310dp"
+        android:clickable="true"
+        android:text="@string/chapter_6"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintRight_toLeftOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:layout_marginRight="165dp"
+        android:clickable="true"
+        android:text="@string/chapter_7"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintRight_toLeftOf="@+id/textView11"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="165dp"
+        android:layout_marginTop="430dp"
+        android:clickable="true"
+        android:text="@string/chapter_8"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintRight_toLeftOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="279dp"
+        android:clickable="true"
+        android:text="@string/chapter_9"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintRight_toLeftOf="@+id/textView13"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="310dp"
+        android:layout_marginRight="279dp"
+        android:clickable="true"
+        android:text="@string/chapter_10"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintRight_toLeftOf="@+id/textView14"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:layout_marginRight="279dp"
+        android:clickable="true"
+        android:text="@string/chapter_11"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintRight_toLeftOf="@+id/textView15"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="430dp"
+        android:layout_marginRight="279dp"
+        android:clickable="true"
+        android:text="@string/chapter_12"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintRight_toLeftOf="@+id/textView16"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 </android.support.constraint.ConstraintLayout>

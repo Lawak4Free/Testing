@@ -13,9 +13,9 @@ public class ForthPage extends AppCompatActivity {
         setContentView(R.layout.activity_forth_page);
     }
 
-    public void PDFViewer(View view) {
+    public void PDFViewer4(View view) {
 
-        Intent intent = new Intent(this, PDFViewer.class );
+        Intent intent = new Intent(this, PDFViewer4.class );
         //SecondPage sama dengan nama activity baru(activity_second_page.xml
         startActivity(intent);
 

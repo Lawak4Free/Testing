@@ -37,131 +37,157 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="50dp"
         android:clickable="true"
         android:text="@string/chapter_1"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="247dp"
-        tools:ignore="MissingConstraints"/>
+        android:onClick="PDFViewer2"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintRight_toLeftOf="@+id/textView5"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="310dp"
+        android:layout_marginRight="50dp"
         android:clickable="true"
         android:text="@string/chapter_2"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="302dp"
-        tools:ignore="MissingConstraints"/>
+        android:onClick="PDFViewer"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintRight_toLeftOf="@+id/textView6"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:layout_marginRight="50dp"
         android:clickable="true"
         android:text="@string/chapter_3"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="369dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintRight_toLeftOf="@+id/textView7"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="430dp"
+        android:layout_marginRight="50dp"
         android:clickable="true"
         android:text="@string/chapter_4"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="429dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintRight_toLeftOf="@+id/textView8"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="165dp"
         android:clickable="true"
         android:text="@string/chapter_5"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="247dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="165dp"
+        android:layout_marginTop="310dp"
         android:clickable="true"
         android:text="@string/chapter_6"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="302dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintRight_toLeftOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:layout_marginRight="165dp"
         android:clickable="true"
         android:text="@string/chapter_7"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="369dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintRight_toLeftOf="@+id/textView11"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="165dp"
+        android:layout_marginTop="430dp"
         android:clickable="true"
         android:text="@string/chapter_8"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="429dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintRight_toLeftOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="279dp"
         android:clickable="true"
         android:text="@string/chapter_9"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="247dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintRight_toLeftOf="@+id/textView13"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="310dp"
+        android:layout_marginRight="279dp"
         android:clickable="true"
         android:text="@string/chapter_10"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="302dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintRight_toLeftOf="@+id/textView14"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:layout_marginRight="279dp"
         android:clickable="true"
         android:text="@string/chapter_11"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="369dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintRight_toLeftOf="@+id/textView15"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="430dp"
+        android:layout_marginRight="279dp"
         android:clickable="true"
         android:text="@string/chapter_12"
         android:textColor="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="429dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintRight_toLeftOf="@+id/textView16"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 </android.support.constraint.ConstraintLayout>
