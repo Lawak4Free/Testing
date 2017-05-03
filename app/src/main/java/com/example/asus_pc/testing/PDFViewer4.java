@@ -13,6 +13,6 @@ public class PDFViewer4 extends AppCompatActivity {
         setContentView(R.layout.activity_pdfviewer4);
 
         PDFView pdfView3 = (PDFView) findViewById(R.id.pdfView4);
-        pdfView3.fromAsset("Under18pdf").load();
+        pdfView3.fromAsset("Under18.pdf").load();
     }
 }
