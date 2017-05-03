@@ -47,8 +47,6 @@
         app:srcCompat="@mipmap/under18"
         tools:ignore="RtlHardcoded" />
 
-
-
     <Button
         android:id="@+id/lawakkampus"
         android:layout_width="140dp"

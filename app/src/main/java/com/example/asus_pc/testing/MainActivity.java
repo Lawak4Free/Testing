@@ -37,4 +37,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void PDFViewer(View view) {
+
+        Intent intent = new Intent(this, PDFViewer.class );
+        //SecondPage sama dengan nama activity baru(activity_second_page.xml
+        startActivity(intent);
+
+    }
+
 }
